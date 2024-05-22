@@ -1,10 +1,10 @@
 # Biomarker-Guided scRNA-Seq Cancer Attractor Analysis
 
 ## Overview
-This repository provides code for a biomarker-guided uncovering of potential cancer attractors given a single-cell RNA sequencing (scRNA-Seq) processed count matrix. The pipeline executes biomarker-oriented clustering and ellipsoidal statistics to identify high-density regions within the data. Further, exploring gene regulatory network (GRN) stochastic dynamics allows for verifying these regions for cancer attractor candidates. The output reveals the biomarkers’ potential to identify cancer attractors, the corresponding confidence regions, and clusters’ multistability as potential sources for cancer recurrence. This framework complements the biomarkers’ investigation and their potential to define cancer attractors. Additionally, it gives essential insights concerning the underlying dynamics driving cancer progression and treatment.
+This repository provides code for a biomarker-guided uncovering of potential cancer attractors given a single-cell RNA sequencing (scRNA-seq) processed count matrix. The pipeline executes biomarker-oriented clustering and ellipsoidal statistics to identify high-density regions within the data. Further, exploring gene regulatory network (GRN) stochastic dynamics allows for verifying these regions for cancer attractor candidates. The output reveals the biomarkers’ potential to identify cancer attractors, the corresponding confidence regions, and clusters’ multistability as potential sources for cancer recurrence. This framework complements the biomarkers’ investigation and their potential to define cancer attractors. Additionally, it gives essential insights concerning the underlying dynamics driving cancer progression and treatment.
 
 ## Features
-- Investigate biomarkers' potential of finding  cancer attractors
+- Investigate biomarkers’ potential of finding  cancer attractors
 - Finding parameters conferring specified stability to a GRN dynamics
 - Use of stochastic simulations to refine attractors’ identification
 - Use of stochastic simulations to identify likely multistability
@@ -28,8 +28,8 @@ This repository provides code for a biomarker-guided uncovering of potential can
    These are the activation adjacency matrices corresponding to the GRN dynamic model.
 
 ## Usage
-1. **Data**: Input scRNA-Seq data in a normalized count matrix format with adjacency matrices corresponding to the GRNs' activation and inhibition interactions.
-2. **Clustering**: Select the desired biomarker dimensions to identify the confidence regions to investigate for the presence of cancer attractors.
+1. **Data**: Input scRNA-seq data in a normalized count matrix format with adjacency matrices corresponding to the GRNs’ activation and inhibition interactions.
+2. **Clustering**: Select the desired biomarker dimensions to identify the confidence regions to investigate the presence of cancer attractors.
 3. **Attractor Inference**: Refine attractor identification using stochastic simulations. This step could be adjusted accordingly, changing the size of confidence regions, regulation functions, range of parameter investigation, and more specific technical configurations.
 
 ## Dependencies
@@ -44,13 +44,13 @@ This project is licensed under the [Creative Commons Attribution-NonCommercial-S
 
 ### License Summary
 
-This license allows others to remix, adapt, and build upon your work non-commercially, as long as they credit you and license their new creations under the same terms. For more details, please visit the [license page](https://creativecommons.org/licenses/by-nc-sa/4.0/).
+This license allows others to remix, adapt, and build upon this work non-commercially, as long as they credit the original author and license their new creations under the same terms. For more details, please visit the [license page](https://creativecommons.org/licenses/by-nc-sa/4.0/).
 
 ## Contribution
 Any contributions are welcome.
 
 ## Authors
-- [Marcos Vieira]( https://github.com/marcosgvjunior)
+- [Marcos Vieira](https://github.com/marcosgvjunior)
 
 ## References
 - The code provided in this repository is associated with an upcoming research article.
