@@ -53,5 +53,5 @@ Any contributions are welcome.
 - [Marcos Vieira](https://github.com/marcosgvjunior)
 
 ## References
-- The code provided in this repository is associated with an upcoming research article.
+- The code provided in this repository is associated with the following research article: https://www.nature.com/articles/s41598-024-74985-2
 
